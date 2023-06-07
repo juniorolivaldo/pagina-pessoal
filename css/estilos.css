@@ -1,5 +1,5 @@
 body {
-    background-image: image('C:\Users\55119\Documents\Olivaldo\Caelum\Imersao - html css javascript\imagens\fundo.jpg') ;
+    background-image: image('.\imagens\fundo.jpg') ;
     background-size: auto 100vh;
     font-family: Arial;
     height: 100vh;
