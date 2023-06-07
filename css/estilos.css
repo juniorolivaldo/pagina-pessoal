@@ -1,3 +1,11 @@
+/*soft reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     background-image: image('.\imagens\fundo.jpg') ;
     background-size: auto 100vh;
