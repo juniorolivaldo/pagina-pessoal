@@ -7,7 +7,7 @@
 
 
 body {
-    background-image: image('.\imagens\fundo.jpg') ;
+    background-image: url('..\imagens\fundo.jpg') ;
     background-size: auto 100vh;
     font-family: Arial;
     height: 100vh;
