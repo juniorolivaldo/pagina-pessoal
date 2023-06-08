@@ -8,10 +8,30 @@
 body {
     background-image: url(../img/fundo.jpg);     
     background-size: auto 100vh;
-    font-family: Arial;
+    /*font-family: 'Sigmar', cursive;*/
     height: 100vh;
   }
-  header {
+
+@media (min-width: 400px){
+    body {
+      font-size: 14px;
+    }
+}
+
+@media (min-width: 600px){
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px){
+  body {
+    font-size: 22px;
+  }
+}
+
+
+header {
       height: 100vh;
       display:flex;
       justify-content: center;
@@ -33,13 +53,13 @@ body {
   }
 
   .menu a {
-    background-color: #6959CD;
+    
     display: block;
     padding: 10px 20px;
   }
   
   a {
-    color:white;
+    color:blue;
     text-decoration: none;
     
   }
@@ -52,11 +72,26 @@ body {
     color: whitesmoke;
     text-align: center;
   }
-  
+
+  .site-title {
+    font-size:3em;
+    font-family: 'Lilita One', cursive;
+  }
+
   .site-subtitle {
     font-style: italic;
   }
   
+  section {
+    /*font-family: 'Lilita One', cursive;*/
+    padding: 1em;
+  }
+
+  section h2 {
+    /*font-family: 'Lilita One', cursive;*/
+    color: whitesmoke;
+
+  }
   .img-portfolio {
     height:130px ;
     width: 150px;
